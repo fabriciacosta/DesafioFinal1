@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Estilizando o menu*/
+header{
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.menu{
+    width: 20%;
+}
+.título{
+  height: 4rem;
+  margin-left: 2rem;
+  
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+/*Estilizando a main*/
+main{
+  height: 100vh;
+  width: 100%;
+  background-image: url("./img/dog1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  
+  
+  
+}
+.introdução{
+  color:white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+ 
+  
+}
+.pata{
+  width: 10rem;
+  height: 5rem;
+
+}
+
+
+
+@media screen (max-width: 500px){
+main{
+  
+}
+
+}
+  
