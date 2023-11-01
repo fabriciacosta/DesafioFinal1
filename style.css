@@ -67,7 +67,7 @@ main img{
 }
 /*Estilizando a primeira seção*/
 .conteúdo{
-  background-image: url(./img/leão.png);
+  background-image: url(./img/dog3.png);
   height: 130vh;
   background-repeat: no-repeat;
   background-size: 100% 170vh;
@@ -105,7 +105,7 @@ main img{
 }
 /*Estilizando a segunda seção*/
 .conteúdo2{
-  background-image: url(./img/preto.png);
+  background-image: url(./img/dog2.png);
   height: 130vh;
   background-repeat: no-repeat;
   background-size: 100% 130vh;
@@ -240,14 +240,16 @@ main h1{
   margin-bottom: 30%;
 }
 .conteúdo{
+  background-image: url(./img/leão.png);
   background-size: cover;
-  background-size: 100% 130vh;
+  background-size: 100% 160vh;
+  height: 160vh;
   
 }
 
 .texto1{
   width: 50%;
-  margin-bottom: 30vh;
+  margin-bottom: 50vh;
 
 }
 .texto1 h2{
@@ -256,24 +258,29 @@ main h1{
 }
 .texto1 p{
   font-size: 1rem;
+  margin-bottom: 5vh;
+  margin: 2rem 0 2rem 0;
 
 }
 #botão1{
   width: 45%;
   height: 10vh;
   font-size: 1rem;
+  margin-bottom: 5vh;
 
 }
 .conteúdo2{
+  background-image: url(./img/preto.png);
   display: flex;
   justify-content: flex-start;
-  background-size: 100% 130vh;
+  background-size: 100% 160vh;
+  height: 160vh;
   
   
 }
 .texto2{
   width: 50%;
-  margin-bottom: 15vh;
+  margin-bottom: 50vh;
   margin-left: 5%;
 
 }
@@ -283,12 +290,15 @@ main h1{
 }
 .texto2 p{
   font-size: 1rem;
+  margin-bottom: 10vh;
+  margin: 2rem 0 2rem 0;
 
 }
 #botão2{
   width: 45%;
   height: 10vh;
   font-size: 1rem;
+  margin-bottom: 20vh;
 
 }
 .conteúdo3{
