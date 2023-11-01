@@ -27,7 +27,7 @@ header nav{
  
 }
 header div img{
-  height: 8vh;
+  height: 6vh;
 
 }
 header nav img{
@@ -38,7 +38,7 @@ header nav img{
 main{
   height: 100vh;
   width: 100%;
-  background-image: url("./img/dog1.png");
+  background-image: url(./img/dog1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -67,10 +67,10 @@ main img{
 }
 /*Estilizando a primeira seção*/
 .conteúdo{
-  background-image: url(./img/dog3.png);
+  background-image: url(./img/leão.png);
   height: 130vh;
   background-repeat: no-repeat;
-  background-size: 100% 130vh;
+  background-size: 100% 170vh;
   display: flex;
   align-items: center;
 }
@@ -105,7 +105,7 @@ main img{
 }
 /*Estilizando a segunda seção*/
 .conteúdo2{
-  background-image: url(./img/dog2.png);
+  background-image: url(./img/preto.png);
   height: 130vh;
   background-repeat: no-repeat;
   background-size: 100% 130vh;
@@ -206,5 +206,122 @@ footer ul{
 footer li{
   margin-top: 2%;
 }
+
+
+@media screen and (max-width: 600px) {
+header{
+  height: 10vh;
+}
+.slogan{
+  display: none;
+}
+.título{
+  height: 4vh;
+}
+main{
+  display: flex;
+  align-items: center;
+  
+}
+
+main h1{
+  font-size: 2rem;
+  }
+
+.pata{
+  width: 20%;
+  margin-right: 37%;
+}
+.introdução{
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  width: 60%;
+  margin-bottom: 30%;
+}
+.conteúdo{
+  background-size: cover;
+  background-size: 100% 130vh;
+  
+}
+
+.texto1{
+  width: 50%;
+  margin-bottom: 30vh;
+
+}
+.texto1 h2{
+  font-size: 2rem;
+
+}
+.texto1 p{
+  font-size: 1rem;
+
+}
+#botão1{
+  width: 45%;
+  height: 10vh;
+  font-size: 1rem;
+
+}
+.conteúdo2{
+  display: flex;
+  justify-content: flex-start;
+  background-size: 100% 130vh;
+  
+  
+}
+.texto2{
+  width: 50%;
+  margin-bottom: 15vh;
+  margin-left: 5%;
+
+}
+.texto2 h2{
+  font-size: 2rem;
+
+}
+.texto2 p{
+  font-size: 1rem;
+
+}
+#botão2{
+  width: 45%;
+  height: 10vh;
+  font-size: 1rem;
+
+}
+.conteúdo3{
+
+}
+.conteúdo3 div{
+  border: solid black;
+
+}
+.conteúdo3 p{
+  font-size: 2rem;
+}
+.conteúdo3 img{
+  height: 5vh;
+
+}
+footer{
+ height: 120vh;
+ 
+}
+footer section{
+
+}
+footer h3{
+  font-size: 2rem;
+
+}
+footer li{
+  font-size: 1rem;
+
+}
+
+}
+
 
   
