@@ -26,8 +26,8 @@ header nav{
  justify-content: space-evenly;
  
 }
-header div img{
-  height: 6vh;
+.título{
+  height: 10vh;
 
 }
 header nav img{
@@ -36,7 +36,7 @@ header nav img{
 
 /*Estilizando a main*/
 main{
-  height: 100vh;
+  height: 130vh;
   width: 100%;
   background-image: url(./img/dog1.png);
   background-repeat: no-repeat;
@@ -51,6 +51,7 @@ main{
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 10vh;
 }
 main h1{
   color: white;
@@ -59,16 +60,16 @@ main h1{
   
 }
 main img{
-  width: 20%;
-  height: 20vh;
-  margin-left: 40%;
+  width: 15%;
+  height: 15vh;
+  margin-left: 42%;
   margin-top: 2vh;
 
 }
 /*Estilizando a primeira seção*/
 .conteúdo{
   background-image: url(./img/dog3.png);
-  height: 130vh;
+  height: 150vh;
   background-repeat: no-repeat;
   background-size: 100% 170vh;
   display: flex;
@@ -106,9 +107,9 @@ main img{
 /*Estilizando a segunda seção*/
 .conteúdo2{
   background-image: url(./img/dog2.png);
-  height: 130vh;
+  height: 150vh;
   background-repeat: no-repeat;
-  background-size: 100% 130vh;
+  background-size: 100% 150vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -205,6 +206,12 @@ footer ul{
 }
 footer li{
   margin-top: 2%;
+}
+.imagem1{
+  display: none;
+}
+.imagem2{
+  display: none;
 }
 
 
@@ -306,24 +313,63 @@ main h1{
 }
 .conteúdo3 div{
   border: solid black;
+  height: 30vh;
+  width: 65%;
 
 }
 .conteúdo3 p{
-  font-size: 2rem;
+  font-size: 20px;
+  
 }
 .conteúdo3 img{
-  height: 5vh;
+  height: 4vh;
+  margin-right: 10%;
+  margin-top: 5vh;
 
 }
 footer{
- height: 120vh;
+ height: 200vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
  
 }
+.imagem1{
+  display: initial;
+  border: solid blue;
+  height: 20vh;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.imagem2{
+  display: initial;
+  border: solid black;
+  height: 20vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.imagem1 img{
+  height: 17vh;
+}
+.imagem2 img{
+  height: 8vh;
+
+}
 footer section{
+  border: solid green;
+  height: 40vh;
+  width: 30%;
+  
 
 }
 footer h3{
-  font-size: 2rem;
+  font-size: 15px;
 
 }
 footer li{
