@@ -61,7 +61,7 @@ main h1{
 }
 main img{
   width: 15%;
-  height: 15vh;
+  height: 17vh;
   margin-left: 42%;
   margin-top: 2vh;
 
@@ -149,23 +149,34 @@ main img{
   height: 30vh;
   display: flex;
   align-items: center;
+  justify-content:space-evenly;
+  margin-right: 15%;
+  margin-left: 10%;
+
+  
   
 }
 .conteúdo3 div{
   height: 15vh;
-  width: 70%;
+  width: 60%;
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 15%;
   align-items: center;
+  justify-content: space-evenly;
+  
+  
+  
   
 
 }
-.conteúdo3 p{
+#parágrafo{
   font-style: italic;
   color: #FD6A9A;
-  font-size: 2rem;
-
+  font-size: 40px;
+  width: 20%;
+  margin-left: 10%;
+  
+  
+  
 }
 .conteúdo3 img{
   color: #FD6A9A;
@@ -237,14 +248,14 @@ main h1{
 
 .pata{
   width: 20%;
-  margin-right: 37%;
+  margin-right: 43%;
 }
 .introdução{
   display: flex;
   align-items: center;
   height: 50vh;
   width: 60%;
-  margin-bottom: 30%;
+  margin-bottom: 50%;
 }
 .conteúdo{
   background-image: url(./img/leão.png);
@@ -309,22 +320,31 @@ main h1{
 
 }
 .conteúdo3{
-
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .conteúdo3 div{
-  border: solid black;
-  height: 30vh;
-  width: 65%;
+  
+  height: 10vh;
+  width: 85%;
+  
+
 
 }
 .conteúdo3 p{
   font-size: 20px;
   
 }
+
 .conteúdo3 img{
   height: 4vh;
   margin-right: 10%;
-  margin-top: 5vh;
+  margin-bottom: 2vh;
+  margin-left: 12%;
+
 
 }
 footer{
